@@ -1,0 +1,109 @@
+/* style lỗi khi ko kiếm thấy sp */
+.text-error{
+    text-align: center;
+    color: red;
+}
+/* style kích thước ảnh sản phẩm */
+.card-img-top{
+    height: 250px; 
+    width: 253px;
+}
+/* style tiêu đề đầu trang */
+nav a{
+    font-weight: 750;
+    color: white;
+}
+.bloc_left_price {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+/* style câu giới thiệu */
+h1.jumbotron-heading{
+    color: #ff99ff;
+    font-size: 300%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+/* style tiêu đề các sản phẩm */
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+/* style chân trang */
+footer {
+    background: #333333;
+    padding: 40px;
+    margin-top: 20px;
+}
+/* style chữ của chân trang */
+footer a {
+    color: white!important
+}
+.bgc{
+    background-image: url(image/Clothes+and+shoes-74_banner.jpg);
+    /*background-image: url("https://envato-shoebox-0.imgix.net/a553/ba21-ce80-45ee-82d4-120907cdb414/Clothes+and+shoes-74_banner.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=a9cc1545e602fe3d3e6c9faed39f0a84");*/
+}
+.show_txt{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+a .active{
+    color: yellow;
+}
+/* style icon giỏ hàng */
+fa-shopping-cart{
+    color: blue;
+}
+
+.btn-number{
+    color: white;
+    background-color: green;
+}
+/* style giỏ hàng */
+a.btn-sm{
+    color: white;
+    font-size: 100%;
+    font-weight: 800;
+}
